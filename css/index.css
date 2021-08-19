@@ -1,0 +1,137 @@
+body {
+	background-color: grey;
+}
+
+#cuerpo {
+	padding: auto;
+	width: 1000px;
+	height: auto;
+	/*background-color: white;*/
+	margin: auto;
+	border-radius: 10px;
+	
+}
+
+#cuerpo2 {
+	border-bottom-right-radius: 10px; 
+	border-bottom-left-radius: 10px;
+}
+
+#fondoPortada {
+	height: 400px;
+	width: 100%;
+	padding-top: 10px;
+	padding: auto;
+	margin: auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-size: 100%;
+}
+
+.titulo {
+	text-align: right;
+	color: white;
+	font-size: 85px;
+	font-family: 'Fugaz One', cursive;
+	padding: 0px 70px;
+	text-shadow: -2px 0 black, 0 2px black,
+	  2px 0 black, 0 -2px black, 8px 7px 0px rgba(0, 0, 0, 1);
+}
+
+#tit {
+	text-align: center;
+}
+
+#portada {
+
+}
+
+#info {
+	padding-top: 20px;
+}
+
+#infoTabla {
+	width: 900px;
+	margin: auto;
+}
+
+#primero {
+	margin: auto;
+}
+
+#fotoCelda {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+#perfil {
+	width: 90%;
+	border: 10px solid #D4D1D1;
+	border-style: ridge;
+	filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1));
+}
+#descCelda {
+	width: 50%;
+	margin: auto;
+	padding-left: 0px;
+}
+#des {
+	width: 90%;
+	padding-right: 0px;
+	padding-left: 30px;
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 24px;
+	font-family: 'Marck Script', cursive;
+}
+
+#masInfo {
+	width: 970px;
+	margin: auto;
+	text-align: center;
+}
+
+.celdas {
+	border: 5px solid #D4D1D1;
+	height: 200px;
+	width: 33%;
+	background: #001F59;
+	transition: background-color .5s, border .5s;
+}
+	.celdas:hover {
+		background: silver;
+		border: 5px solid #001F59;
+	}
+
+a {
+	text-decoration: none;
+}
+
+.texto {
+	
+	margin: auto;
+	color: silver;
+	transition: color .5s, -moz-transform .5s, -o-transform .5s, -webkit-transform .5s, font-size .5s;
+	font-size: 50px;
+	font-family: fantasy;
+	-moz-transform: rotate(-30.0deg);  /*FireFox*/
+	-o-transform: rotate(-30.0deg);  /*Opera*/
+	-webkit-transform: rotate(-30.0deg);  /*Safari, Chrome, Brave*/
+}
+	.texto:hover {
+		color: #001F59;
+		border-radius: 10px;
+		border-spacing: 0px;
+		font-size: 60px;
+		text-align: center;
+		-moz-transform: rotate(0.0deg);  /*FireFox*/
+		-o-transform: rotate(0.0deg);  /*Opera*/
+		-webkit-transform: rotate(0.0deg);  /*Safari, Chrome, Brave*/
+	}
+
+#volver {
+	padding: 50px 0px 40px 50px;
+	font-family: 'Fugaz One', cursive;
+	color: black;
+}

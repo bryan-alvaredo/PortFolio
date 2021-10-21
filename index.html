@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Página Principal</title>
 	<link rel="stylesheet" href="css/index.css"/>
@@ -8,23 +8,30 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 </head>
 <body style="background-image: url('img/fondo.png');">
 	<div id="cuerpo">
-		<div id="fondoPortada" style="background-image: url('img/Desarrollo-Web-Dibdata.png');">
-			<p class="titulo">DESARROLLADOR<br>WEB</p>
+		<div id="fondoPortada">
+			<table id="portada" style="background-image: url('img/Desarrollo-Web-Dibdata.png');">
+				<tr>
+					<td><p class="titulo">DESARROLLADOR<br/>WEB</p></td>
+				</tr>
+			</table>
 		</div>
-		<div id="cuerpo2" style="background-image: url('img/fondo-div.png');">
+		<div id="cuerpo2" style="background-image: url('img/fondo-div2.png');">
 			<table id="infoTabla" cellspacing="0" cellpadding="0">
 				<tr id="primero">
 					<td id="fotoCelda"><img id="perfil" src="img/perfil.png"></td>
-					<td id="descCelda"><p id="des">Mi nombre es Brian Ezequiel Alvaredo Gavilán, soy oriundo de la ciudad de Resistencia, provincia del Chaco. Tengo 25 años, hace algunos años egresé de la escuela E.E.T. Nro. 21 Gral. Manuel Belgrano y actualmente me desempeño como empleado de la empresa Konecta Global BPO Center.<br>Hoy día me encuentro cursando la etapa 3 del curso de Desarrollo Web dictado por el Informatorio brindado por la subsecretaría de empleo del gobierno de la provincia del Chaco.<br>Cuento con experiencia en planificación e implementación de proyectos. También he realizado una aplicación web con Django, te invito a conocerla en la sección "Proyectos".</p></td>
+					<td id="descCelda"><p id="des">Mi nombre es Brian Ezequiel Alvaredo Gavilán, soy oriundo de la Ciudad de Resistencia, provincia del Chaco. Tengo 25 años, soy egresado de la escuela E.E.T. Nro. 21 Gral. Manuel Belgrano y actualmente me desempeño como empleado de la empresa Konecta Global BPO Center.<br>Hoy día me encuentro cursando la etapa 3 del curso de Desarrollo Web dictado por el Informatorio brindado por la Subsecretaría de Empleo del Gobierno de la Provincia del Chaco.<br>Cuento con experiencia en planificación e implementación de proyectos. También he realizado una Aplicación Web con el Framework Django, la cual te invito a conocerla en la sección "Proyectos".</p></td>
 				</tr>
 			</table>
 			<table id="masInfo" cellspacing="20" cellpadding="0">
-				<tr>
+				<tr id="trMasInfo">
 					<td id="proyectosCelda" class="celdas"><a href="proyectos.html"><p class="texto">PROYECTOS</p></a></td>
-					<td id="rrssCelda" class="celdas"><a href="rrss.html"><p class="texto">REDES<br>SOCIALES</p></a></td>
+					<td id="rrssCelda" class="celdas"><a href="rrss.html"><p id="redesTexto" class="texto">REDES<br>SOCIALES</p></a></td>
 					<td id="contactoCelda" class="celdas"><a href="contacto.html"><p class="texto">CONTACTO</p></a></td>
 				</tr>
 			</table>
